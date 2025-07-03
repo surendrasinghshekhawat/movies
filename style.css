@@ -192,3 +192,14 @@ section h1 {
   width: 100%;
   border-radius: 4px;
 }
+.category {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  scrollbar-width: none; 
+}
+
+.category::-webkit-scrollbar {
+  display: none; 
+}
